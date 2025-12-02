@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  env: {
+    OPEN_AI_API_KEY: 'test',
+  }
 };
 
 export default nextConfig;
