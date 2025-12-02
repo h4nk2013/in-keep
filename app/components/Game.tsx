@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { fetchOpenAIResponse } from '../actions/openai';
+import { fetchOpenAIResponse } from '../actions/openai.action';
 import Board from './Board';
 import calculateWinner from '../utils/winner';
 
